@@ -3,11 +3,6 @@ import pandas as pd
 import matplotlib.pyplot as plt 
 import os 
 
-
-# The accuracy is 95% with 250 iteration using neural network 
-#  with backpropogation "https://www.kaggle.com/primaryobjects/voicegender"
-# which is 98% on training dataset which is above baseline.
-
 path = os.getcwd()
 path = path + '/voice.csv'
 data = pd.read_csv(path,header = None)
